@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>1.¿Qué es un recurso frontend y cuál es su función en el desarrollo web?<h2>
+         <p>Un recurso fronted es todo lo que los usuarios ven y con lo que interactúan en un sitio web, como el diseño,  la interfaz, las animaciones y la experiencia de usuario. Su función es crear una experiencia visual y funcional atractiva para los usuarios .<p>
+    <h2>2.¿Cuáles son las principales tecnologías o herramientas utilizadas en el
+        desarrollo frontend y por qué son importantes?<h2>
+         <p>Las principales tecnologías utilizadas en el desarrollo frontend son HTML, CSS y JavaScript. HTML se encarga de la estructura del contenido, CSS controla el diseño y la presentación, y JavaScript añade interactividad y funcionalidades dinámicas a la página. Son importantes porque trabajan juntos para crear una experiencia web completa y atractiva.<p>
+    <h2>3.Describe el concepto de responsividad en el diseño web y menciona al
+        menos dos técnicas para lograrlo.<h2>
+         <p>La responsividad en el diseño web se refiere a la capacidad de un sitio para adaptarse a diferentes tamaños de pantalla y dispositivos. Dos técnicas para lograrlo son el diseño fluido, que utiliza porcentajes para definir tamaños en lugar de valores fijos, y los media queries, que permiten aplicar estilos específicos según el tamaño de la pantalla.<p>
+    <h2>4.¿Cuál es la diferencia entre HTML, CSS y JavaScript en el contexto del
+        desarrollo frontend? Explique brevemente el papel de cada uno de estos
+        lenguajes.<h2>
+         <p>HTML es un lenguaje de marcado utilizado para estructurar el contenido web, CSS es un lenguaje de estilo utilizado para controlar la presentación y el diseño, y JavaScript es un lenguaje de programación utilizado para añadir interactividad y comportamiento dinámico a las páginas web.<p>
+    <h2>5.Habla sobre la importancia de la accesibilidad en el diseño frontend y menciona al menos dos prácticas para mejorar la accesibilidad en una páginaweb.<h2>
+        <p>La accesibilidad en el diseño frontend es crucial para asegurarse de que todas las personas, incluyendo aquellas con discapacidades, puedan acceder al contenido web. Algunas prácticas para mejorar la accesibilidad son el uso adecuado de etiquetas semánticas en HTML y el asegurarse de que los elementos sean navegables con teclado.<p>
+    
+        <h2>6.Explora el concepto de frameworks frontend y proporciona ejemplos de al
+            menos dos de ellos. ¿Por qué los desarrolladores utilizan frameworks en
+            lugar de escribir todo el código desde cero?</h2>
+            <p>Los frameworks frontend son conjuntos de herramientas predefinidas para facilitar el desarrollo web, como React.js o Angular. Los desarrolladores los utilizan porque ofrecen estructuras sólidas y patrones probados que agilizan el proceso de desarrollo.<p>
+   
+               <h2>7. En el contexto del desarrollo frontend, ¿cuál es la diferencia entre un CMS
+                (Sistema de Gestión de Contenidos) y un framework? Proporciona ejemplos
+                de ambos</h2>
+ <p>En el contexto del desarrollo frontend, un CMS como WordPress se enfoca en la gestión y publicación de contenido web, mientras que un framework como React se centra en la creación de interfaces de usuario interactivas. Los CMS son ideales para sitios web con mucho contenido estático, mientras que los frameworks son mejores para aplicaciones web complejas o interactivas.<p>
+    <h2>8.¿Qué es un array en PHP?</h2>   
+      <p>Un array es un conjunto de variables de una misma clase. Se accede a cada elemento individual del array mediante un número entero denominado índice. 0 es el índice o localizador del primer elemento y n-1 es el índice del último elemento, siendo n la dimensión, tamaño o longitud del array. Así $empleado representaría al empleado con localizador como veremos a continuación.</p>
+    <h2>9.En PHP, se puede crear un array de varias maneras, describe cada una con su ejemplo.</h2> 
+       <p>9. Creación de Arrays en PHP:
+        a. Creación utilizando la función array():
+        phpCopy code$array_numerico = array(1, 2, 3, 4, 5);
+        $array_asociativo = array("nombre" => "Juan", "edad" => 30, "ciudad" => "Madrid");
+        b. Creación utilizando corchetes [] (a partir de PHP 5.4):
+        phpCopy code$array_numerico = [1, 2, 3, 4, 5];
+        $array_asociativo = ["nombre" => "Juan", "edad" => 30, "ciudad" => "Madrid"];</p>
+    <h2>10.¿Qué operaciones con arrays se pueden realizar para manipular y trabajar
+        datos?</h2>
+     <p>Algunas operaciones comunes que se pueden realizar con arrays en PHP incluyen:
+
+        Agregar elementos: array_push(), $array[] = valor
+        Eliminar elementos: unset(), array_pop(), array_shift()
+        Recorrer un array: foreach(), for()
+        Ordenar un array: sort(), rsort(), asort(), ksort()
+        Buscar elementos: in_array(), array_search()
+        Obtener información sobre el array: count(), sizeof(), array_keys(), array_values()
+        Unir arrays: array_merge(), array_combine()
+        Dividir arrays: array_chunk(), array_slice()</p>  
+    <h2>11.Desarrolla 2 ejemplos prácticos que se evidencien Arrays, describe su
+        enunciado problema</h2> 
+        <p> Ejemplos Prácticos que Evidencien Arrays:
+            Ejemplo 1: Lista de Tareas Pendientes
+            Enunciado del problema: Desarrollar una aplicación web para gestionar una lista de tareas pendientes de un usuario.</p>
+            
+    <p>
+            $tareas = ["Comprar leche", "Hacer ejercicio", "Llamar al médico"];
+            
+            echo "<h2>Tareas Pendientes:</h2>";
+            echo "<ul>";
+            foreach ($tareas as $tarea) {
+                echo "<li>$tarea</li>";
+            }
+            echo "</ul>";</p>
+            <p>
+            Ejemplo 2: Sistema de Reservas de Libros
+            Enunciado del problema: Desarrollar un sistema de reservas de libros de una biblioteca que permita almacenar información como el título del libro, el autor y la disponibilidad.</p>
+            
+           <p>
+            $libros = [
+                ["titulo" => "El Principito", "autor" => "Antoine de Saint-Exupéry", "disponible" => true],
+                ["titulo" => "Cien años de soledad", "autor" => "Gabriel García Márquez", "disponible" => false],
+                ["titulo" => "1984", "autor" => "George Orwell", "disponible" => true]
+            ];
+            
+            echo "<h2>Libros Disponibles:</h2>";
+            echo "<ul>";
+            foreach ($libros as $libro) {
+                if ($libro['disponible']) {
+                    echo "<li>{$libro['titulo']} - {$libro['autor']}</li>";
+                }
+            }
+            echo "</ul>";</p>
+
+        
+
+</body>
+</html>
